@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Server;
+using Client;
 
 class Program
 {
     static void Main()
     {
-        TCPServer.StartServer();
+        TCPClient.ConnectToServer();
     }
 }
